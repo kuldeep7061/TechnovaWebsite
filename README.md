@@ -10,6 +10,3 @@
 
 ![screenshot-2018-1-16](assets/screencapture-file-J-Web-Project-official-index-html-2020-03-16-01_09_20.png)
 
-## License
-
-This project is licensed under the terms of the [MIT license](LICENSE).
