@@ -1307,7 +1307,7 @@ color: white;
 	padding: 10px 0;
 }
 .btn {
-	background: linear-gradient(to right, red, black);
+	background: linear-gradient(to right, red, white);
 	border: none;
 	font-weight: 900;
 	text-transform: uppercase;
