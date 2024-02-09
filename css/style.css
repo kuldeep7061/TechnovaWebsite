@@ -1332,3 +1332,27 @@ color: white;
 		margin-bottom: 30px;
 	}
 }
+.end-btn {
+  margin-top: 5vw;
+  background-color: #DAA521;
+  border: none;
+  width: 15vw;
+  height: 3vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
+  
+  /* Center the button horizontally */
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .end-btn {
+    width: 50%; /* Adjust the width to fit mobile screens */
+    height: auto; /* Let the height adjust according to the content */
+    font-size: 4vw; /* Adjust the font size for better readability on mobile */
+  }
+}
