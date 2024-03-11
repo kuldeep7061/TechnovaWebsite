@@ -1356,3 +1356,41 @@ color: white;
     font-size: 4vw; /* Adjust the font size for better readability on mobile */
   }
 }
+
+/* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  text-align: center;
+}
+
+.popup h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.popup p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.popup button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #45a049;
+}
